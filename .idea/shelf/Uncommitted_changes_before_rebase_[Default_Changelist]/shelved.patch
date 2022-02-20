@@ -1,0 +1,21 @@
+Index: app/src/main/java/com/example/myapplication/MainActivity.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.myapplication\n\nimport androidx.appcompat.app.AppCompatActivity\nimport android.os.Bundle\n\nclass MainActivity : AppCompatActivity() {\n    override fun onCreate(savedInstanceState : Bundle?) {\n        super.onCreate(savedInstanceState)\n        setContentView(R.layout.activity_main)\n        System.out.println(\"Hello World\")\n        System.out.println(\"Hello World2\")\n\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/myapplication/MainActivity.kt b/app/src/main/java/com/example/myapplication/MainActivity.kt
+--- a/app/src/main/java/com/example/myapplication/MainActivity.kt	(revision f04f43428cc475bdc546dc55fbc1293565e27469)
++++ b/app/src/main/java/com/example/myapplication/MainActivity.kt	(date 1645312320179)
+@@ -7,8 +7,7 @@
+     override fun onCreate(savedInstanceState : Bundle?) {
+         super.onCreate(savedInstanceState)
+         setContentView(R.layout.activity_main)
+-        System.out.println("Hello World")
+-        System.out.println("Hello World2")
++        System.out.println("Puspak ")
+ 
+     }
+ }
+\ No newline at end of file
