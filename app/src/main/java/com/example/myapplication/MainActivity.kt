@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         System.out.println("Hello World")
         System.out.println("Hello World2")
-        System.out.println("Hello World3")
+        System.out.println("Hello World 3")
 
     }
 }
